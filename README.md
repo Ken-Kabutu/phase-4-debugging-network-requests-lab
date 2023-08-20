@@ -64,6 +64,16 @@ developing your own process.
 
   - How I debugged:
 
+  * i checked the rails server and noted that there were some error messages eg. "app/controllers/toys_controller.rb:15:in `update'
+  Unpermitted parameter: :id
+  Completed 204 No Content in 4ms"
+
+* i followed the error messages to the particular controller action that is responsible for handling them.
+
+* i fixed the toys#update in the controller to get the likes to update
+
+* added the destroy route in the routes.rb file
+
 - Update the number of likes for a toy
 
   - How I debugged:
