@@ -64,7 +64,7 @@ developing your own process.
 
   - How I debugged:
 
-  * i checked the rails server and noted that there were some error messages eg. "app/controllers/toys_controller.rb:15:in `update'
+* i checked the rails server and noted that there were some error messages eg. "app/controllers/toys_controller.rb:15:in `update'
   Unpermitted parameter: :id
   Completed 204 No Content in 4ms"
 
